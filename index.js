@@ -7,4 +7,4 @@ app.get("/kkr",(req,res)=>{
     return res.status(201).json({admin:"this is a aws vm launched by koushil"})
 })
 
-app.listen(3000)
+app.listen(8080)
