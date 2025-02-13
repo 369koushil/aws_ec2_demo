@@ -1,7 +1,7 @@
-const expres=require("express")
+const express=require("express")
 const app=express();
 
-app.use(expres.json())
+app.use(express.json())
 
 app.get("/kkr",(req,res)=>{
     return res.status(201).json({admin:"this is a aws vm launched by koushil"})
